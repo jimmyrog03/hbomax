@@ -18,7 +18,7 @@
     font-size:30px;
 }
 .leftnav-header-text:hover{
-    color:rgb(170, 0, 170);
+    color:#8c77e2;
 }
 
 .leftnav-category-text{
@@ -29,7 +29,7 @@
 }
 
 .leftnav-category-text:hover{
-    color:rgb(170, 0, 170);
+    color:#8c77e2;
 }
 .close-button{
     font-size: 20px;
