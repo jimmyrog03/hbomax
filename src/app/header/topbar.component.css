@@ -1,0 +1,10 @@
+.topbar{
+    background: transparent;
+    transition-duration: 0.1s;
+}
+
+.topbar:hover{
+    background-color: black;
+}
+
+

@@ -1,0 +1,42 @@
+.user-menu{
+    color:rgb(190,190,190);
+    font-size:x-large
+}
+
+.user-menu:hover{
+    color:white;
+}
+
+.usermenu-header-text{
+    background-color: black;
+    color: white;
+    font-weight:900;
+    font-size:30px;
+}
+
+.usermenu-category-text{
+    background-color: black;
+    font-weight: 900;
+    font-size: 26px;
+    color: rgb(190, 190, 190);
+}
+
+.usermenu-category-text:hover{
+    color:white;
+}
+
+.usermenu-subcat-text{
+    background-color: black;
+    font-weight: 350px;
+    font-size: 26px;
+    color: rgb(190,190,190);
+}
+
+.usermenu-subcat-text:hover{
+    color:white;
+}
+
+.account-icon{
+    background-color: transparent;
+    fill:#8c77e2;
+}

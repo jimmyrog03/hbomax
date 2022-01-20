@@ -1,0 +1,36 @@
+.leftnav-menu{
+    background-color: transparent;
+    fill: rgb(190, 190, 190);
+}
+
+.leftnav-menu:hover{
+    fill:white;
+}
+
+.offcanvas-black{
+    background-color: black;
+}
+
+.leftnav-header-text{
+    background-color: black;
+    color: white;
+    font-weight:900;
+    font-size:30px;
+}
+.leftnav-header-text:hover{
+    color:rgb(170, 0, 170);
+}
+
+.leftnav-category-text{
+    background-color: black;
+    font-weight: 350;
+    font-size: 26px;
+    color: rgb(190, 190, 190);
+}
+
+.leftnav-category-text:hover{
+    color:rgb(170, 0, 170);
+}
+.close-button{
+    font-size: 20px;
+}

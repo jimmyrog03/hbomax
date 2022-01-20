@@ -1,16 +1,35 @@
-<a class="btn btn-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUserMenu" role="button" aria-controls="offcanvasUserMenu">
+<a class="btn btn-black user-menu" data-bs-toggle="offcanvas" data-bs-target="#offcanvasUserMenu" role="button" aria-controls="offcanvasUserMenu">
   Jim
 </a>
-<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasUserMenu" aria-labelledby="offcanvasNavbarLabel">
+<div class="offcanvas offcanvas-end offcanvas-black" tabindex="-1" id="offcanvasUserMenu" aria-labelledby="offcanvasNavbarLabel">
   <div class="offcanvas-header">
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <button type="button" class="btn-close btn-close-white close-button text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
     <div class="offcanvas-body">
       <ul class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action">My List</a>
-        <a href="#" class="list-group-item list-group-item-action">Continue Watching</a>
-        <a href="#" class="list-group-item list-group-item-action">Account</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-header-text">My List</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Continue Watching</a>
+      </ul>
+
+      <ul class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Account
+          <svg class="bi account-icon" width="24" height="24">
+            <use xlink:href="./assets/bootstrap-icons.svg#exclamation-circle"/>
+          </svg>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Subscription</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Manage Devices</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Parental Controls</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Notifications</a>
+      </ul>
+
+      <ul class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Display Language</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-subcat-text">Switch Profiles</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-subcat-text">Help</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-subcat-text">Sign Out</a>
+        <a href="#" class="list-group-item list-group-item-action usermenu-category-text">Privacy & Terms</a>
       </ul>
     </div>
   </div>
