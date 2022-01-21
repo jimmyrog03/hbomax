@@ -29,8 +29,19 @@
 }
 
 .leftnav-category-text:hover{
+    font-weight: 900;
     color:#8c77e2;
 }
+
+.category-underline{
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+
+.new-list{
+    padding-top: 10px;
+}
+
 .close-button{
     font-size: 20px;
 }
