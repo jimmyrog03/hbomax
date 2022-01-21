@@ -7,6 +7,15 @@
     color:white;
 }
 
+.new-list-usermenu{
+    padding-top: 20px;
+}
+
+.underline-usermenu{
+    padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+}
+
 .usermenu-header-text{
     background-color: black;
     color: white;
@@ -17,7 +26,7 @@
 .usermenu-category-text{
     background-color: black;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 30px;
     color: rgb(190, 190, 190);
 }
 
@@ -28,7 +37,7 @@
 .usermenu-subcat-text{
     background-color: black;
     font-weight: 350px;
-    font-size: 26px;
+    font-size: 30px;
     color: rgb(190,190,190);
 }
 

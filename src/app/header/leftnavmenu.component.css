@@ -7,6 +7,10 @@
     fill:white;
 }
 
+.leftnav-menu:focus{
+    outline:none;
+    box-shadow: none;
+}
 .offcanvas-black{
     background-color: black;
 }
