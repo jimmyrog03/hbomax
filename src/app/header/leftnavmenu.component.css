@@ -3,32 +3,34 @@
     fill: rgb(190, 190, 190);
 }
 
-.leftnav-menu:hover{
-    fill:white;
-}
-
+.leftnav-menu:hover{fill:white;}
+    
 .leftnav-menu:focus{
     outline:none;
     box-shadow: none;
 }
 .offcanvas-black{
     background-color: black;
+    width: 500px
 }
 
 .leftnav-header-text{
     background-color: black;
     color: white;
     font-weight:900;
-    font-size:30px;
+    font-size:32px;
+    margin-left: 10%;
+    width: 80%;
+    padding-top: 0px;
 }
-.leftnav-header-text:hover{
-    color:#8c77e2;
-}
+.leftnav-header-text:hover{color:#8c77e2;}
 
 .leftnav-category-text{
     background-color: black;
     font-weight: 350;
-    font-size: 26px;
+    font-size: 28px;
+    margin-left: 10%;
+    width: 80%;
     color: rgb(190, 190, 190);
 }
 
@@ -42,10 +44,14 @@
     border-bottom: 2px solid gray;
 }
 
-.new-list{
-    padding-top: 10px;
+.new-list{padding-top: 10px;}
+
+.leftnav-close-button{
+    font-size: 20px;
 }
 
-.close-button{
-    font-size: 20px;
+.leftnav-top-padding{
+    padding-block: 35px;
+    margin-left: 10%;
+    height: 116px
 }

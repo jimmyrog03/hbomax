@@ -1,10 +1,12 @@
 .topbar{
     background: transparent;
     transition-duration: 0.1s;
+    max-height: 116px;
 }
 
 .topbar:hover{
     background-color: black;
 }
+
 
 
