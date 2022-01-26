@@ -6,6 +6,7 @@ import { MainMenuComponent } from './header/mainmenu.component';
 import { UserMenuComponent } from './header/usermenu.component';
 import { TopBarComponent } from './header/topbar.component';
 import { LeftNavMenuComponent } from './header/leftnavmenu.component';
+import { MainPageComponent } from './main-site/mainpage.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { LeftNavMenuComponent } from './header/leftnavmenu.component';
     MainMenuComponent,
     UserMenuComponent,
     TopBarComponent,
-    LeftNavMenuComponent
+    LeftNavMenuComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule
