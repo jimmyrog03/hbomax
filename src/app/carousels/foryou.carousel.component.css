@@ -1,0 +1,15 @@
+.wide-card-buttons{
+    width: 55px;
+    height: 210px;
+    background-color: transparent;
+    color: transparent;
+}
+
+.wide-card-buttons:hover{
+    background-color: black;
+    opacity: 50%;
+}
+
+.wide-startcard{
+    margin-left: 55px;
+}

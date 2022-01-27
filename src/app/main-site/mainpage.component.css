@@ -1,3 +1,12 @@
-.main-page{
+.small-row{
     background-color: transparent;
+}
+
+.text-head{
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    font-weight: 600;
+    margin-left: 65px;
+    margin-bottom: 20px;
 }

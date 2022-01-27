@@ -1,0 +1,12 @@
+.widecard-pic-attributes{
+    width: 375px;
+    height: 210px;
+}
+
+.widecard-layout{
+    margin-inline: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+}
+
