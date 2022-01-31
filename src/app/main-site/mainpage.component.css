@@ -1,7 +1,7 @@
-.small-row{
-    background-color: transparent;
+.mainpage-attr, h1{
+    min-width: 1000px;
+    flex-wrap: nowrap;
 }
-
 .text-head{
     font-size: 30px;
     color: white;

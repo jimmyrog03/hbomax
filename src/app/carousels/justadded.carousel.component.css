@@ -1,0 +1,25 @@
+.tall-card-buttons{
+    width: 55px;
+    height: 500px;
+    background-color: transparent;
+
+}
+
+.tall-card-buttons:hover{
+    background-color: black;
+    opacity: 50%;
+}
+
+.tall-carousel-button{
+    fill: transparent;
+    color: transparent;
+}
+
+.tall-carousel-button:hover{
+    fill: white;
+    color: white;
+}
+
+.tall-startcard{
+    margin-left: 45px;
+}

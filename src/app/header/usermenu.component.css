@@ -2,7 +2,7 @@
     color:rgb(190,190,190);
     font-size:24px;
     font-weight: 600;
-    
+    flex-wrap: nowrap;
 }
 
 .user-menu:hover{color:white;}
@@ -16,6 +16,7 @@
     color:white;
     font-size: 22px;
     font-weight: 600;
+    flex-wrap: nowrap;
 }
     
 .new-list-usermenu{padding-top: 20px; }

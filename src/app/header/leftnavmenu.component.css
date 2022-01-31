@@ -1,6 +1,7 @@
 .leftnav-menu{
     background-color: transparent;
     fill: rgb(190, 190, 190);
+    flex-wrap: nowrap;
 }
 
 .leftnav-menu:hover{fill:white;}

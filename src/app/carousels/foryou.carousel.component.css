@@ -1,6 +1,6 @@
 .wide-card-buttons{
     width: 55px;
-    height: 210px;
+    height: 260px;
     background-color: transparent;
     color: transparent;
 }
@@ -12,4 +12,13 @@
 
 .wide-startcard{
     margin-left: 55px;
+}
+
+.card-fixed{
+    flex-wrap: nowrap;
+}
+
+.carousel-attr{
+    min-width: 1000px;
+    flex-wrap: nowrap;
 }

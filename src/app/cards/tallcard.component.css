@@ -1,0 +1,11 @@
+.tallcard-pic-attributes{
+    width: 340px;
+    height: 500px;
+}
+
+.tallcard-layout{
+    margin-inline: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+}
