@@ -5,14 +5,15 @@
 
 .card-layout{
     margin-inline: 8px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: transparent;
     border: transparent;
 }
 
 .card-text{
     color:white;
-    font-size:20px;
+    font-size:30px;
+    
     margin: 0px;
     padding-block: 2px;
     padding-inline: 0px;
