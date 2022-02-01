@@ -7,13 +7,15 @@
 
 .card-body{
     padding-block: 200px;
-    padding-inline: 60px;
+    padding-left: 60px;
+    width: 1248px;
 }
 
 .card-title{
     color: #b4bfbd;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 900;
+    opacity: .8;
 }
 
 h1{
@@ -23,21 +25,20 @@ h1{
 }
 
 small,p{
-    font-size: 21px;
+    font-size: 22px;
     color: white;
-    font-weight: 400;
+    opacity: 0.9;
+    font-weight: 500;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .showcase-pic{
     width: 1248px;
-    height: 702px;
+    height: 700px;
 }
 
-
-
-div{
+.no-flex{
     flex-wrap: nowrap;
     flex: none;
 }
@@ -46,7 +47,6 @@ div{
     width: max-content;
     height: max-content;
     min-width: max-content;
-    flex-wrap: nowrap;
 }
 
 .button-row{
@@ -68,19 +68,25 @@ div{
     border: none;
 }
 
-.play-icon-back{
+.info-button:hover{
+    background-color: #968cf7;
+}
+
+.play-icon{
     width: 85px;
     height: 85px;
     fill: black;
     background-color: rgb(207, 193, 109);
-}
-
-.play-icon{
     margin-left: 0px;
 }
+
 
 .play-icon:focus{
     outline:none;
     box-shadow: none;
+}
+
+.play-icon:hover{
+    background-color: rgb(175, 163, 93);
 }
 
