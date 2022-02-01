@@ -1,12 +1,17 @@
 .mainpage-attr, h1{
     min-width: 1000px;
     flex-wrap: nowrap;
+
 }
 .text-head{
     font-size: 30px;
     color: white;
     background-color: transparent;
     font-weight: 600;
-    margin-left: 65px;
+    margin-left: 81px;
     margin-bottom: 20px;
+}
+
+.top-placeholder{
+    margin-top: 100px;
 }

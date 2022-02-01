@@ -11,6 +11,9 @@ import { WideCardComponent } from './cards/widecard.component';
 import { ForYouComponent } from './carousels/foryou.carousel';
 import { TallCardComponent } from './cards/tallcard.component';
 import { JustAddedComponent } from './carousels/justadded.carousel.component';
+import { SquareCardComponent } from './cards/squarecard.component';
+import { MyListComponent } from './carousels/mylist.carousel.component';
+import { ShowCaseCardComponent } from './cards/showcasecard.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { JustAddedComponent } from './carousels/justadded.carousel.component';
     WideCardComponent,
     ForYouComponent,
     TallCardComponent,
-    JustAddedComponent
+    JustAddedComponent,
+    SquareCardComponent,
+    MyListComponent,
+    ShowCaseCardComponent
     
   ],
   imports: [

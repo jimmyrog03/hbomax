@@ -1,12 +1,13 @@
 .widecard-pic-attributes{
-    width: 420px;
-    height: 260px;
+    width: 600px;
+    height: 336px;
 }
 
-.widecard-layout{
-    margin-inline: 10px;
+.card-layout{
+    margin-inline: 8px;
     margin-bottom: 20px;
     background-color: transparent;
+    border: transparent;
 }
 
 .card-text{

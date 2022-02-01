@@ -1,8 +1,8 @@
 .wide-card-buttons{
-    width: 55px;
-    height: 260px;
+    width: 80px;
+    height: 336px;
     background-color: transparent;
-    color: transparent;
+
 }
 
 .wide-card-buttons:hover{
@@ -10,8 +10,8 @@
     opacity: 50%;
 }
 
-.wide-startcard{
-    margin-left: 55px;
+.startcard{
+    margin-left: 71px;
 }
 
 .card-fixed{
@@ -22,3 +22,4 @@
     min-width: 1000px;
     flex-wrap: nowrap;
 }
+
