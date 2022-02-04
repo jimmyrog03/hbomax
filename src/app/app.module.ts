@@ -14,6 +14,8 @@ import { JustAddedComponent } from './carousels/justadded.carousel.component';
 import { SquareCardComponent } from './cards/squarecard.component';
 import { MyListComponent } from './carousels/mylist.carousel.component';
 import { ShowCaseCardComponent } from './cards/showcasecard.component';
+import { PopularMoviesComponent } from './carousels/popularmovies.carousel.component';
+import { XTallCardComponent } from './cards/Xtallcard.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ShowCaseCardComponent } from './cards/showcasecard.component';
     JustAddedComponent,
     SquareCardComponent,
     MyListComponent,
-    ShowCaseCardComponent
+    ShowCaseCardComponent,
+    PopularMoviesComponent,
+    XTallCardComponent
     
   ],
   imports: [

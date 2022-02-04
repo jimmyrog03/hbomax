@@ -1,11 +1,5 @@
 .square-card-buttons{
     width: 80px;
     height: 300px;
-    background-color: transparent;
 
-}
-
-.square-card-buttons:hover{
-    background-color: black;
-    opacity: 50%;
 }

@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'hbo-squarecard',
@@ -6,5 +6,15 @@ import { Component } from "@angular/core";
     styleUrls: ['squarecard.component.css','widecard.component.css']
 })
 export class SquareCardComponent{
+    @Input() square_img: string;
+    @Input() title: string;
+    @Input() subtitle_HBO: string;
 
+    constructor(){
+        this.square_img = "./assets/";
+        this.title = "Title";
+        this.subtitle_HBO = "HBO";
+    }
 }
+
+    

@@ -2,61 +2,42 @@
     <div class="carousel-inner carousel-attr">
       <div class="carousel-item active startcard">
         <div class="card-group card-fixed">
-          <hbo-tallcard> </hbo-tallcard>
-          <hbo-tallcard> </hbo-tallcard>
-          <hbo-tallcard> </hbo-tallcard>
-          <hbo-tallcard> </hbo-tallcard>
-          <hbo-tallcard> </hbo-tallcard>
-          <hbo-tallcard> </hbo-tallcard>
+          <div *ngFor="let item of justadded">
+          <hbo-Xtallcard
+            Xtall_img={{item.Xtall_img}}
+            subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+          </hbo-Xtallcard>
+        </div>
         </div>
       </div>
       <div class="carousel-item startcard">
         <div class="card-group card-fixed">
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
         </div>
       </div>
       <div class="carousel-item startcard">
         <div class="card-group card-fixed">
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-        </div>
-      </div>
-      <div class="carousel-item startcard">
-        <div class="card-group card-fixed">
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard> </hbo-tallcard>
-        </div>
-      </div>
-      <div class="carousel-item startcard">
-        <div class="card-group card-fixed">
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard> </hbo-tallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <hbo-Xtallcard>  </hbo-Xtallcard>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev tall-card-buttons" type="button" data-bs-target="#JustAddedCards" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon tall-carousel-button" aria-hidden="true"></span>
+    <button class="carousel-control-prev Xtall-card-buttons" type="button" data-bs-target="#JustAddedCards" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon Xtall-carousel-button" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next tall-card-buttons" type="button" data-bs-target="#JustAddedCards" data-bs-slide="next">
-      <span class="carousel-control-next-icon tall-carousel-button" aria-hidden="true"></span>
+    <button class="carousel-control-next Xtall-card-buttons" type="button" data-bs-target="#JustAddedCards" data-bs-slide="next">
+      <span class="carousel-control-next-icon Xtall-carousel-button" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>

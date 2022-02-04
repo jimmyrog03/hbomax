@@ -1,16 +1,15 @@
-.Xtall-card-buttons{
+.tall-card-buttons{
     width: 80px;
-    height: 720px;
+    height: 450px;
 
 }
 
-.Xtall-carousel-button{
+.tall-carousel-button{
     fill: transparent;
     color: transparent;
 }
 
-.Xtall-carousel-button:hover{
+.tall-carousel-button:hover{
     fill: white;
     color: white;
 }
-

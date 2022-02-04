@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { mock_media_list } from './cards/mock.media.list';
+import { MediaListModel } from './cards/media.list.model';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hbomax';
+ 
 }
