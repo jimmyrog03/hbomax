@@ -8,7 +8,7 @@ import { TopBarComponent } from './header/topbar.component';
 import { LeftNavMenuComponent } from './header/leftnavmenu.component';
 import { MainPageComponent } from './main-site/mainpage.component';
 import { WideCardComponent } from './cards/widecard.component';
-import { ForYouComponent } from './carousels/foryou.carousel';
+import { ForYouComponent } from './carousels/foryou.carousel.component';
 import { TallCardComponent } from './cards/tallcard.component';
 import { JustAddedComponent } from './carousels/justadded.carousel.component';
 import { SquareCardComponent } from './cards/squarecard.component';

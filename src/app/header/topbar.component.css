@@ -1,7 +1,7 @@
 .topbar{
     background: rgba(0,0,0,.9);
     transition-duration: 0.1s;
-    height: 90px;
+    height: 60px;
     flex-wrap: nowrap;
     min-width: 1000px;
 }
@@ -11,6 +11,6 @@
 }
 
 .logo{
-    height: 80px;
-    width: 170px;
+    height: 60px;
+    width: 129px;
 }

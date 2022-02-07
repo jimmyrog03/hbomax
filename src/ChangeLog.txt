@@ -1,0 +1,17 @@
+Lab3: 
+    Main Features:
+        - Created Popular Movies carousel
+        - Added movie pictures for the different sizes of cards from the website
+        - Created a temporary mock media list for all carousels to display their 
+          respective card sizes, each movie/show has the following info stored
+            <> Title        (title of the movie/show, only displayed in myList carousel)
+            <> square_img   (image used for square cards)
+            <> wide_img     (image used for wide cards)
+            <> tall_img     (image used for tall cards)
+            <> Xtall_img    (image used for extra tall cards. For now this only contains one movie from the site)
+            <> subtitle_HBO (Shows whether the movie/show is an HBO title)
+        - Resized all card, carousel, and navbar elements to match site (I had been zoomed out in my browser making me enlarge all components)
+    Bonus Features:
+        - Added overlay image from website to card components when hovering
+
+        

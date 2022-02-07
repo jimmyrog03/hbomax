@@ -4,14 +4,17 @@
 
 }
 .text-head{
-    font-size: 30px;
+    font-size: 24px;
     color: white;
     background-color: transparent;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
     font-weight: 600;
-    margin-left: 81px;
-    margin-bottom: 20px;
+    margin-left: 55px;
+    margin-bottom: 14px;
 }
 
 .top-placeholder{
-    margin-top: 100px;
+    margin-top: 60px;
 }

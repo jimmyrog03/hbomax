@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
     selector: 'hbo-Xtallcard',
     templateUrl: 'Xtallcard.component.html',
-    styleUrls: ['Xtallcard.component.css','widecard.component.css']
+    styleUrls: ['Xtallcard.component.css','squarecard.component.css']
 })
 export class XTallCardComponent{
     @Input() Xtall_img: string;

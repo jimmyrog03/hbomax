@@ -1,11 +1,32 @@
 .leftnav-menu{
+    margin-top: -6px;
+    margin-left: 38px;
     background-color: transparent;
-    fill: rgb(190, 190, 190);
     flex-wrap: nowrap;
 }
 
-.leftnav-menu:hover{fill:white;}
-    
+.leftnav-listicon{
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    background-image: url("/assets/browse_default_max.svg");
+}
+.leftnav-listicon:hover{
+    background-image: url("/assets/browse_hover_max.svg");
+}
+
+.leftnav-searchicon{
+    margin-top: 4px;
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    background-image: url("/assets/search_default_max.svg");
+}
+.leftnav-searchicon:hover{
+    background-image: url("/assets/search_hover_max.svg");
+}
+
+
 .leftnav-menu:focus{
     outline:none;
     box-shadow: none;

@@ -3,7 +3,7 @@ import { Component, Input } from "@angular/core";
 @Component({
     selector: 'hbo-tallcard',
     templateUrl: 'tallcard.component.html',
-    styleUrls: ['tallcard.component.css','widecard.component.css']
+    styleUrls: ['tallcard.component.css','squarecard.component.css']
 })
 export class TallCardComponent{
     @Input() tall_img: string;
