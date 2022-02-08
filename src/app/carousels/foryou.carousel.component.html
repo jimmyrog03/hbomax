@@ -13,20 +13,24 @@
     </div>
     <div class="carousel-item startcard">
       <div class="card-group card-fixed">
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
+        <div *ngFor="let item of foryou">
+          <hbo-widecard
+            wide_img={{item.wide_img}}
+            subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+          </hbo-widecard>
+        </div>
       </div>
     </div>
     <div class="carousel-item startcard">
       <div class="card-group card-fixed">
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
-        <hbo-widecard>  </hbo-widecard>
+        <div *ngFor="let item of foryou">
+          <hbo-widecard
+            wide_img={{item.wide_img}}
+            subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+          </hbo-widecard>
+        </div>
       </div>
     </div>
   </div>

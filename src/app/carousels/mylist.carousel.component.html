@@ -14,9 +14,14 @@
       </div>
       <div class="carousel-item startcard">
         <div class="card-group card-fixed">
-          <hbo-squarecard>  </hbo-squarecard>
-          <hbo-squarecard>  </hbo-squarecard>
-         
+          <div *ngFor="let item of mylist">
+            <hbo-squarecard
+            square_img={{item.square_img}}
+            title={{item.title}}
+            subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+            </hbo-squarecard>
+          </div>
         </div>
       </div>
     </div>

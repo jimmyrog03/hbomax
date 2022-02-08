@@ -13,22 +13,24 @@
       </div>
       <div class="carousel-item startcard">
         <div class="card-group card-fixed">
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <div *ngFor="let item of justadded">
+            <hbo-Xtallcard
+              Xtall_img={{item.Xtall_img}}
+              subtitle_HBO={{item.subtitle_HBO}}>
+              Loading...
+            </hbo-Xtallcard>
+          </div>
         </div>
       </div>
       <div class="carousel-item startcard">
         <div class="card-group card-fixed">
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
-          <hbo-Xtallcard>  </hbo-Xtallcard>
+          <div *ngFor="let item of justadded">
+            <hbo-Xtallcard
+              Xtall_img={{item.Xtall_img}}
+              subtitle_HBO={{item.subtitle_HBO}}>
+              Loading...
+            </hbo-Xtallcard>
+          </div>
         </div>
       </div>
     </div>

@@ -14,9 +14,14 @@
       </div>
       <div class="carousel-item startcard">
         <div class="card-group card-fixed">
-          <hbo-tallcard>  </hbo-tallcard>
-          <hbo-tallcard>  </hbo-tallcard>
-         
+          <div *ngFor="let item of popularmovies">
+            <hbo-tallcard
+            tall_img={{item.tall_img}}
+            title={{item.title}}
+            subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+            </hbo-tallcard>
+          </div>
         </div>
       </div>
     </div>
