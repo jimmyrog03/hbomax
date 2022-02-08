@@ -13,5 +13,6 @@ Lab3:
         - Resized all card, carousel, and navbar elements to match site (I had been zoomed out in my browser making me enlarge all components)
     Bonus Features:
         - Added overlay image from website to card components when hovering
+        - Switched bootstrap icons for list and search button to images from the website
 
         
