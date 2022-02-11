@@ -6,6 +6,11 @@ import { SeriesPageComponent } from './main-site/series.component';
 import { MoviesPageComponent } from './main-site/moviespage.component';
 import { SearchPageComponent } from './main-site/searchpage.component';
 import { OriginalsPageComponent } from './main-site/originalspage.component';
+import { JustAddedPageComponent } from './main-site/justaddedpage.component';
+import { LastChancePageComponent } from './main-site/lastchancepage.component';
+import { ComingSoonPageComponent } from './main-site/comingsoonpage.component';
+import { TrendingNowPageComponent } from './main-site/trendingnowpage.component';
+import { AwardsPageComponent } from './main-site/awardspage.component';
 
 const routes:Routes = [
   {path: '', component: MainPageComponent},
@@ -13,7 +18,13 @@ const routes:Routes = [
   {path: 'series', component: SeriesPageComponent},
   {path: 'movies', component: MoviesPageComponent},
   {path: 'search', component: SearchPageComponent},
-  {path: 'originals', component: OriginalsPageComponent}
+  {path: 'originals', component: OriginalsPageComponent},
+  {path: 'justadded', component: JustAddedPageComponent},
+  {path: 'lastchance', component: LastChancePageComponent},
+  {path: 'comingsoon', component: ComingSoonPageComponent},
+  {path: 'trendingnow', component: TrendingNowPageComponent},
+  {path: 'awards', component: AwardsPageComponent}
+
 ];
 
 @NgModule({

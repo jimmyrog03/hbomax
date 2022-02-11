@@ -21,6 +21,11 @@ import { SeriesPageComponent } from './main-site/series.component';
 import { MoviesPageComponent } from './main-site/moviespage.component';
 import { SearchPageComponent } from './main-site/searchpage.component';
 import { OriginalsPageComponent } from './main-site/originalspage.component';
+import { LastChancePageComponent } from './main-site/lastchancepage.component';
+import { JustAddedPageComponent } from './main-site/justaddedpage.component';
+import { ComingSoonPageComponent } from './main-site/comingsoonpage.component';
+import { TrendingNowPageComponent } from './main-site/trendingnowpage.component';
+import { AwardsPageComponent } from './main-site/awardspage.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +47,12 @@ import { OriginalsPageComponent } from './main-site/originalspage.component';
     SeriesPageComponent,
     MoviesPageComponent,
     SearchPageComponent,
-    OriginalsPageComponent
+    OriginalsPageComponent,
+    LastChancePageComponent,
+    JustAddedPageComponent,
+    ComingSoonPageComponent,
+    TrendingNowPageComponent,
+    AwardsPageComponent
     
   ],
   imports: [

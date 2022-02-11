@@ -15,4 +15,20 @@ Lab3:
         - Added overlay image from website to card components when hovering
         - Switched bootstrap icons for list and search button to images from the website
 
-        
+Lab4:
+    Main Features:
+        - Created Routing Sites for following categories in left navbar
+            <> Home
+            <> Series
+            <> Movies
+            <> Originals
+            <> Just Added
+            <> Last Chance
+            <> Coming Soon
+            <> Trending Now
+            <> Awards & Acclaim
+        - Created Routing to search site through search icon in main navbar
+        - Added Heading to each site using flex columns
+        - Added example headings for categories located on specific sites
+    Bonus Features:
+        - Added active links to left navbar components for respective sites (text will turn white at active site)
