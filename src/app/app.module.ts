@@ -16,6 +16,11 @@ import { MyListComponent } from './carousels/mylist.carousel.component';
 import { ShowCaseCardComponent } from './cards/showcasecard.component';
 import { PopularMoviesComponent } from './carousels/popularmovies.carousel.component';
 import { XTallCardComponent } from './cards/Xtallcard.component';
+import { AppRoutingModule } from './app-routing.module';
+import { SeriesPageComponent } from './main-site/series.component';
+import { MoviesPageComponent } from './main-site/moviespage.component';
+import { SearchPageComponent } from './main-site/searchpage.component';
+import { OriginalsPageComponent } from './main-site/originalspage.component';
 
 @NgModule({
   declarations: [
@@ -33,11 +38,16 @@ import { XTallCardComponent } from './cards/Xtallcard.component';
     MyListComponent,
     ShowCaseCardComponent,
     PopularMoviesComponent,
-    XTallCardComponent
+    XTallCardComponent,
+    SeriesPageComponent,
+    MoviesPageComponent,
+    SearchPageComponent,
+    OriginalsPageComponent
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

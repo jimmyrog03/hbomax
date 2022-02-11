@@ -19,25 +19,25 @@
     font-weight: 500;
     flex-wrap: nowrap;
 }
-    
-.new-list-usermenu{padding-top: 20px; }
+
+.new-list-usermenu{padding-top: 10px; }
 
 .underline-usermenu{
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     border-bottom: 2px solid gray;
 }
 
 .usermenu-header-text{
     background-color: black;
     color: white;
-    font-weight:900;
-    font-size:30px;
+    font-weight:800;
+    font-size:22px;
 }
 
 .usermenu-category-text{
     background-color: black;
-    font-weight: 900;
-    font-size: 30px;
+    font-weight: 800;
+    font-size: 22px;
     color: rgb(190, 190, 190);
 }
 
@@ -46,7 +46,7 @@
 .usermenu-subcat-text{
     background-color: black;
     font-weight: 350px;
-    font-size: 30px;
+    font-size: 22px;
     color: rgb(190,190,190);
 }
 
@@ -58,12 +58,20 @@
 }
 
 .usermenu-close-button{
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .usermenu-top-padding{
-    padding-block: 35px;
     margin-right: 10%;
-    height: 116px;
+    height: 60px;
     align-self: end;
+}
+
+.name{
+    font-size: 14px;
+}
+
+.list-group-item{
+    width: 320;
+    padding-inline: 0;
 }
