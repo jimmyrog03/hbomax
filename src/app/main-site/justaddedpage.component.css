@@ -5,3 +5,7 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.top-pad{
+    padding-top: 300px;
+}

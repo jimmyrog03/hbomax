@@ -1,4 +1,14 @@
 <div class="d-flex flex-column mainpage-attr background">
     <h1 class="text-page top-placeholder"> Just Added </h1>
-    
+    <div class="flex-column top-pad">
+        <div class="flex-row">
+          <div class="card-group card-fixed col-start">
+            <div *ngFor="let item of justadded">
+              <hbo-less-tallcard tall_img={{item.tall_img}} title={{item.title}} subtitle_HBO={{item.subtitle_HBO}}>
+                Loading...
+              </hbo-less-tallcard>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
