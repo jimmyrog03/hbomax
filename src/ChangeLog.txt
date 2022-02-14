@@ -30,5 +30,7 @@ Lab4:
         - Created Routing to search site through search icon in main navbar
         - Added Heading to each site using flex columns
         - Added example headings for categories located on specific sites
+        - Added example carousels and general list of shows/movies for specific pages
+        - Added smaller tallcard to display larger list of movies not in a carousel but in flex columns
     Bonus Features:
         - Added active links to left navbar components for respective sites (text will turn white at active site)

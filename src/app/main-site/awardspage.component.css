@@ -1,0 +1,28 @@
+.background{
+    height:100%;
+    background-image: url('/assets/AwardsPageBackground.jpeg') !important;
+
+}
+
+.awards-header{
+    font-size: 50px !important;
+    font-weight: 300 !important;
+    margin-top: 88px;
+    min-width: 400px;
+    height: 60px;
+}
+
+.awards-subtitle{
+    font-size: 23px !important;
+    font-weight: 300 !important;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    min-width: 600px;
+    height: 55px;
+}
+
+.container{
+    width: 630px;
+    height: 140px;
+    flex-wrap: wrap;
+}

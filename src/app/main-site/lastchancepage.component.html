@@ -1,5 +1,14 @@
 <div class="d-flex flex-column mainpage-attr">
     <h1 class="text-page top-placeholder"> Last Chance </h1>
-    
-    
+    <div class="flex-column">
+        <div class="flex-row">
+          <div class="card-group card-fixed col-start">
+            <div *ngFor="let item of lastchance">
+              <hbo-less-tallcard tall_img={{item.tall_img}} title={{item.title}} subtitle_HBO={{item.subtitle_HBO}}>
+                Loading...
+              </hbo-less-tallcard>
+            </div>
+          </div>
+        </div>
+      </div>
 </div> 

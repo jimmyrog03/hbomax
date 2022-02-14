@@ -1,10 +1,19 @@
 <div class="d-flex flex-column mainpage-attr">
-  
-    <h1 class="text-head top-placeholder"> Explore Collections </h1>
 
-  
-    <h1 class="text-head"> Popular Searches </h1>
-
-
-  
+  <h1 class="text-head top-placeholder"> Explore Collections </h1>
+  <hbo-foryou> Loading Explore Collections </hbo-foryou>
+  <h1 class="text-head"> Popular Searches </h1>
+  <div class="flex-column">
+    <div class="flex-row">
+      <div class="card-group card-fixed col-start">
+        <div *ngFor="let item of searchpage">
+          <hbo-less-tallcard tall_img={{item.tall_img}} title={{item.title}} subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+          </hbo-less-tallcard>
+        </div>
+      </div>
+    </div>
   </div>
+
+
+</div>

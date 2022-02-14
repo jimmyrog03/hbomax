@@ -26,6 +26,7 @@ import { JustAddedPageComponent } from './main-site/justaddedpage.component';
 import { ComingSoonPageComponent } from './main-site/comingsoonpage.component';
 import { TrendingNowPageComponent } from './main-site/trendingnowpage.component';
 import { AwardsPageComponent } from './main-site/awardspage.component';
+import { LessTallCardComponent } from './cards/lesstallcard.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { AwardsPageComponent } from './main-site/awardspage.component';
     JustAddedPageComponent,
     ComingSoonPageComponent,
     TrendingNowPageComponent,
-    AwardsPageComponent
+    AwardsPageComponent,
+    LessTallCardComponent
     
   ],
   imports: [
