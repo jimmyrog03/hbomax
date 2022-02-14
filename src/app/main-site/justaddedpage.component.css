@@ -1,0 +1,7 @@
+.background{
+    height:100%;
+    background-image: url('/assets/JustAddedBackground.jpeg') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -27,6 +27,7 @@ import { ComingSoonPageComponent } from './main-site/comingsoonpage.component';
 import { TrendingNowPageComponent } from './main-site/trendingnowpage.component';
 import { AwardsPageComponent } from './main-site/awardspage.component';
 import { LessTallCardComponent } from './cards/lesstallcard.component';
+import { FooterBarComponent } from './footer/footerbar.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { LessTallCardComponent } from './cards/lesstallcard.component';
     ComingSoonPageComponent,
     TrendingNowPageComponent,
     AwardsPageComponent,
-    LessTallCardComponent
+    LessTallCardComponent,
+    FooterBarComponent
     
   ],
   imports: [

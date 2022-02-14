@@ -1,7 +1,9 @@
 .background{
     height:100%;
     background-image: url('/assets/AwardsPageBackground.jpeg') !important;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .awards-header{

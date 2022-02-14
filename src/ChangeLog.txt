@@ -34,3 +34,5 @@ Lab4:
         - Added smaller tallcard to display larger list of movies not in a carousel but in flex columns
     Bonus Features:
         - Added active links to left navbar components for respective sites (text will turn white at active site)
+        - Added column container to align user icon better on top navbar
+        - Added special background to Awards & Acclaims and Just Added page, similar to original site

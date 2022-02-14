@@ -1,0 +1,19 @@
+.footer{
+    color: rgb(153,153,153);
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+
+.col{
+    width: 50%;
+
+}
+.left-col{
+    left:0;
+
+}
+
+.right-col{
+    right:0;
+}
