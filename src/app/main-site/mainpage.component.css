@@ -3,6 +3,10 @@
     flex-wrap: nowrap;
 
 }
+.d-flex{
+    position: relative;
+    padding-bottom:30px;
+}
 
 .text-page{
     text-align: center;
