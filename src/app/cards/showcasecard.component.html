@@ -1,22 +1,22 @@
 <div class="card">
-    <div class="row no-flex">
-      <div class="col no-flex">
-        <img src="./assets/TheFallout.jpeg" class="img showcase-pic">
-      </div>
-      <div class="col no-flex">
-        <div class="card-body">
-          <h4 class="card-title">THE FALLOUT</h4>
-          <h1>There's no going back to normal. Starring Jenna Ortega and Maddie Ziegler.</h1>
-          <p><small>The unflinchingly modern drama, only on HBO Max</small></p>
-          <div class="row button-row">
-            <button type="button" class="btn play-icon rounded-circle" href="#">
-                <svg class="bi" width="32" height="32">
-                    <use xlink:href="./assets/bootstrap-icons.svg#play-fill"/>
-                </svg>
-            </button>
-            <button type="button" class="btn-outline rounded-pill info-button" href="#">MORE INFO</button>
-          </div>
+  <div class="row no-flex">
+    <div class="col no-flex">
+      <img src={{img}} class="img showcase-pic">
+    </div>
+    <div class="col no-flex">
+      <div class="card-body">
+        <h4 class="card-title">{{title}}</h4>
+        <h1>{{heading}}</h1>
+        <p><small>{{subtext}}</small></p>
+        <div class="row button-row">
+          <button type="button" class="btn play-icon rounded-circle" href="#">
+            <svg class="bi" width="32" height="32">
+              <use xlink:href="./assets/bootstrap-icons.svg#play-fill" />
+            </svg>
+          </button>
+          <button type="button" class="btn-outline rounded-pill info-button" href="#">MORE INFO</button>
         </div>
       </div>
     </div>
   </div>
+</div>

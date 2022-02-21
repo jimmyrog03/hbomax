@@ -1,0 +1,10 @@
+.card-body-right{
+    padding-block: 130px;
+    padding-right: 40px;
+    width:100%;
+}
+
+.col-right{
+    width: 50%;
+    height: max-content;
+}

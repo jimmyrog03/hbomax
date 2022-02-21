@@ -1,0 +1,38 @@
+<div id={{this.id}} class="carousel slide carousel-background" data-bs-interval="false" data-bs-wrap="false">
+    <div class="carousel-inner carousel-attr">
+        <div class="carousel-item active startcard">
+            <div class="flex-column title">
+                <h1 class="title-layout">2022 Critics Choice Award Nominees</h1>
+                <p class="title-layout"><small>Tastemaker-approved films and series</small></p>
+            </div>
+            <div class="flex-column">
+                <div class="card-group card-fixed">
+                    <div *ngFor="let item of tall">
+                        <hbo-tallcard tall_img={{item.tall_img}} subtitle_HBO={{item.subtitle_HBO}}>
+                            Loading...
+                        </hbo-tallcard>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item startcard">
+            <div class="card-group card-fixed">
+                <div *ngFor="let item of tall">
+                    <hbo-tallcard tall_img={{item.tall_img}} subtitle_HBO={{item.subtitle_HBO}}>
+                        Loading...
+                    </hbo-tallcard>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev tall-card-buttons" type="button" [attr.data-bs-target]="'#' + id"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next tall-card-buttons" type="button" [attr.data-bs-target]="'#' + id"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>

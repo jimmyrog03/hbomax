@@ -1,0 +1,47 @@
+<div id={{this.id}} class="carousel slide" data-bs-interval="false" data-bs-wrap="false">
+    <div class="carousel-inner carousel-attr">
+      <div class="carousel-item active startcard">
+        <div class="card-group card-fixed">
+          <div *ngFor="let item of Xwide">
+            <hbo-Xwidecard
+              Xwide_img={{item.Xwide_img}}
+              subtitle_HBO={{item.subtitle_HBO}}>
+              Loading...
+            </hbo-Xwidecard>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item startcard">
+        <div class="card-group card-fixed">
+          <div *ngFor="let item of Xwide">
+            <hbo-Xwidecard
+              Xwide_img={{item.Xwide_img}}
+              subtitle_HBO={{item.subtitle_HBO}}>
+              Loading...
+            </hbo-Xwidecard>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item startcard">
+        <div class="card-group card-fixed">
+          <div *ngFor="let item of Xwide">
+            <hbo-Xwidecard
+              Xwide_img={{item.Xwide_img}}
+              subtitle_HBO={{item.subtitle_HBO}}>
+              Loading...
+            </hbo-Xwidecard>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev Xwide-card-buttons" type="button" [attr.data-bs-target]="'#' + id" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next Xwide-card-buttons" type="button" [attr.data-bs-target]="'#' + id" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  

@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { collections_list } from "../lists/collections.list";
-import { CollectionsModel } from "../lists/collections.model";
+import { MediaListModel } from "../lists/media.list.model";
 
 @Component({
   selector: 'hbo-collections',
@@ -8,7 +8,7 @@ import { CollectionsModel } from "../lists/collections.model";
   styleUrls: ['foryou.carousel.component.css']
 })
 export class CollectionsComponent {
-  collections: CollectionsModel[] = [];
+  collections: MediaListModel[] = [];
   constructor() {
     for (var item of collections_list) {
       this.collections.push(item);

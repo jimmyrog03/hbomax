@@ -29,6 +29,11 @@ import { AwardsPageComponent } from './main-site/awardspage.component';
 import { LessTallCardComponent } from './cards/lesstallcard.component';
 import { FooterBarComponent } from './footer/footerbar.component';
 import { CollectionsComponent } from './carousels/collections.carousel.component';
+import { XWideCardComponent } from './cards/Xwidecard.component';
+import { SAGAwardsComponent } from './carousels/SAGAwards.carousel.component';
+import { XWideCarouselComponent } from './carousels/Xwide.carousel.component';
+import { TallImgCarouselComponent } from './carousels/tall.img.carousel.component';
+import { ShowCaseCardRightComponent } from './cards/showcasecard-right.component';
 
 @NgModule({
   declarations: [
@@ -58,8 +63,12 @@ import { CollectionsComponent } from './carousels/collections.carousel.component
     AwardsPageComponent,
     LessTallCardComponent,
     FooterBarComponent,
-    CollectionsComponent
-    
+    CollectionsComponent,
+    XWideCardComponent,
+    SAGAwardsComponent,
+    XWideCarouselComponent,
+    TallImgCarouselComponent,
+    ShowCaseCardRightComponent
   ],
   imports: [
     BrowserModule,

@@ -1,12 +1,12 @@
-.widecard-pic-attributes{
-    width: 375px;
-    height: 210px;
+.Xwidecard-pic-attributes{
+    width: 621px;
+    height: 348px;
     border-radius: 0%;
 }
 
-.wide_overlay{
-    height: 210px;
-    width: 375px;
+.Xwide_overlay{
+    width: 621px;
+    height: 348px;
     opacity: 0%;
     top: 0%;
     position: absolute;
@@ -14,6 +14,6 @@
     background-image: url("/assets/btn_overlay_bp_16x9.png");
 }
 
-.wide_overlay:hover{
-    opacity: 1;
+.Xwide_overlay:hover{
+    opacity: 100;
 }

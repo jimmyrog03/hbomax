@@ -1,0 +1,14 @@
+.Xwide-card-buttons{
+    width: 55px;
+    height: 348px;
+}
+
+.Xwide-carousel-button{
+    fill: transparent;
+    color: transparent;
+}
+
+.Xwide-carousel-button:hover{
+    fill: white;
+    color: white;
+}

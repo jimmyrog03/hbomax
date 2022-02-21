@@ -1,0 +1,28 @@
+.carousel-background{
+    background-size: 100% 100%;
+    background-image: "/assets/Carousel_Background_Purple";
+}
+
+.tall-card-buttons{
+    width: 55px;
+    height: 300px;
+
+}
+
+.tall-carousel-button{
+    fill: transparent;
+    color: transparent;
+}
+
+.tall-carousel-button:hover{
+    fill: white;
+    color: white;
+}
+.title{
+    width: 20%;
+    margin: 0;
+}
+
+.title-layout{
+    height: 150px;
+}
