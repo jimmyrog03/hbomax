@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
-import { mock_media_list } from "../cards/mock.media.list";
-import { MediaListModel } from "../cards/media.list.model";
+import { popular_search_list } from "../lists/popularsearch.list";
+import { PopularSearchModel } from "../lists/popularsearch.model";
 
 @Component({
     selector: 'hbo-searchpage',
@@ -8,9 +8,9 @@ import { MediaListModel } from "../cards/media.list.model";
     styleUrls: ['searchpage.component.css', 'mainpage.component.css']
 })
 export class SearchPageComponent{
-    searchpage: MediaListModel[] = [];
+    searchpage: PopularSearchModel[] = [];
     constructor() {
-        for (var item of mock_media_list) {
+        for (var item of popular_search_list) {
             this.searchpage.push(item);
         }
     }

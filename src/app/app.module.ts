@@ -28,6 +28,7 @@ import { TrendingNowPageComponent } from './main-site/trendingnowpage.component'
 import { AwardsPageComponent } from './main-site/awardspage.component';
 import { LessTallCardComponent } from './cards/lesstallcard.component';
 import { FooterBarComponent } from './footer/footerbar.component';
+import { CollectionsComponent } from './carousels/collections.carousel.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { FooterBarComponent } from './footer/footerbar.component';
     TrendingNowPageComponent,
     AwardsPageComponent,
     LessTallCardComponent,
-    FooterBarComponent
+    FooterBarComponent,
+    CollectionsComponent
     
   ],
   imports: [

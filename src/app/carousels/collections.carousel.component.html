@@ -1,0 +1,35 @@
+<div id="ForYouCards" class="carousel slide" data-bs-interval="false" data-bs-wrap="false">
+  <div class="carousel-inner carousel-attr">
+    <div class="carousel-item active startcard">
+      <div class="card-group card-fixed">
+        <div *ngFor="let item of collections">
+          <hbo-widecard
+            wide_img={{item.wide_img}}
+            subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+          </hbo-widecard>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item startcard">
+      <div class="card-group card-fixed">
+        <div *ngFor="let item of collections">
+          <hbo-widecard
+            wide_img={{item.wide_img}}
+            subtitle_HBO={{item.subtitle_HBO}}>
+            Loading...
+          </hbo-widecard>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev wide-card-buttons" type="button" data-bs-target="#ForYouCards" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next wide-card-buttons" type="button" data-bs-target="#ForYouCards" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
