@@ -35,6 +35,7 @@ import { XWideCarouselComponent } from './carousels/Xwide.carousel.component';
 import { TallImgCarouselComponent } from './carousels/tall.img.carousel.component';
 import { ShowCaseCardRightComponent } from './cards/showcasecard-right.component';
 import { CriticsChoiceComponent } from './carousels/critics-choice.carousel.component';
+import { SearchTopBarComponent } from './header/searchtopbar.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { CriticsChoiceComponent } from './carousels/critics-choice.carousel.comp
     XWideCarouselComponent,
     TallImgCarouselComponent,
     ShowCaseCardRightComponent,
-    CriticsChoiceComponent
+    CriticsChoiceComponent,
+    SearchTopBarComponent
   ],
   imports: [
     BrowserModule,

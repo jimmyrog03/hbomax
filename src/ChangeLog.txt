@@ -44,6 +44,7 @@ Lab5:
             <> tall_img carousel for carousels with title located in first slide of carousel
         - Created showcasecard-right component which places the image on the right, instead of left originally
         - Created card layout component for search page which uses ngForLoop to display cards without a carousel
+        - Created lesstallcard to display popular searches cards similarly to original site 
         - Created collections carousel to display the different collections that can be selected in the original site's page
     Bonus Features:
         - Added new movie and show images to match more cards from original site

@@ -30,14 +30,14 @@
 }
 
 .usermenu-header-text{
-    background-color: black;
+    background-color: rgba(15,15,15,1);
     color: white;
     font-weight:800;
     font-size:22px;
 }
 
 .usermenu-category-text{
-    background-color: black;
+    background-color: rgba(15,15,15,1);
     font-weight: 800;
     font-size: 22px;
     color: rgb(190, 190, 190);
@@ -46,7 +46,7 @@
 .usermenu-category-text:hover{color:white;}
 
 .usermenu-subcat-text{
-    background-color: black;
+    background-color: rgba(15,15,15,1);
     font-weight: 350px;
     font-size: 22px;
     color: rgb(190,190,190);
