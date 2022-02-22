@@ -1,5 +1,5 @@
 .topbar{
-    background: rgba(0,0,0,.9);
+    background: rgba(15,15,15,.9);
     transition-duration: 0.1s;
     height: 60px;
     flex-wrap: nowrap;
@@ -7,7 +7,7 @@
 }
 
 .topbar:hover{
-    background-color: black;
+    background: rgba(15,15,15,1);
 }
 
 .logo{

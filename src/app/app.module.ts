@@ -34,6 +34,7 @@ import { SAGAwardsComponent } from './carousels/SAGAwards.carousel.component';
 import { XWideCarouselComponent } from './carousels/Xwide.carousel.component';
 import { TallImgCarouselComponent } from './carousels/tall.img.carousel.component';
 import { ShowCaseCardRightComponent } from './cards/showcasecard-right.component';
+import { CriticsChoiceComponent } from './carousels/critics-choice.carousel.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { ShowCaseCardRightComponent } from './cards/showcasecard-right.component
     SAGAwardsComponent,
     XWideCarouselComponent,
     TallImgCarouselComponent,
-    ShowCaseCardRightComponent
+    ShowCaseCardRightComponent,
+    CriticsChoiceComponent
   ],
   imports: [
     BrowserModule,

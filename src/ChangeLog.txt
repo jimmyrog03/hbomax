@@ -36,3 +36,14 @@ Lab4:
         - Added active links to left navbar components for respective sites (text will turn white at active site)
         - Added column container to align user icon better on top navbar
         - Added special background to Awards & Acclaims and Just Added page, similar to original site
+
+Lab5:
+    Main Features:
+        - Created two carousel components for awards & acclaims page
+            <> Xwide carousel for cards that are larger than wide
+            <> tall_img carousel for carousels with title located in first slide of carousel
+        - Created showcasecard-right component which places the image on the right, instead of left originally
+        - Created card layout component for search page which uses ngForLoop to display cards without a carousel
+        - Created collections carousel to display the different collections that can be selected in the original site's page
+    Bonus Features:
+        - Added new movie and show images to match more cards from original site

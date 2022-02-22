@@ -5,6 +5,10 @@
 }
 
 .col-right{
-    width: 50%;
+    width: 937px;
     height: max-content;
+}
+
+.img-layout{
+    padding-left: 33px;
 }

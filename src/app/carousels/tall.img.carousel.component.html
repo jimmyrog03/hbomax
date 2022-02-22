@@ -1,11 +1,13 @@
-<div id={{this.id}} class="carousel slide carousel-background" data-bs-interval="false" data-bs-wrap="false">
+<div id={{this.id}} class="carousel slide" data-bs-interval="false" data-bs-wrap="false">
     <div class="carousel-inner carousel-attr">
         <div class="carousel-item active startcard">
-            <div class="flex-column title">
-                <h1 class="title-layout">2022 Critics Choice Award Nominees</h1>
-                <p class="title-layout"><small>Tastemaker-approved films and series</small></p>
+            <div class=carousel-background></div>
+            <div class="row">
+            <div class="col-carousel title">
+                <h1 class="title-layout">{{this.heading}}</h1>
+                <p class="title-layout"><small>{{this.subtext}}</small></p>
             </div>
-            <div class="flex-column">
+            <div class="col-carousel">
                 <div class="card-group card-fixed">
                     <div *ngFor="let item of tall">
                         <hbo-tallcard tall_img={{item.tall_img}} subtitle_HBO={{item.subtitle_HBO}}>
@@ -14,6 +16,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <div class="carousel-item startcard">
             <div class="card-group card-fixed">
