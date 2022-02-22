@@ -48,3 +48,4 @@ Lab5:
         - Created collections carousel to display the different collections that can be selected in the original site's page
     Bonus Features:
         - Added new movie and show images to match more cards from original site
+        - Completed footer component
