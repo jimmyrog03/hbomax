@@ -49,3 +49,10 @@ Lab5:
     Bonus Features:
         - Added new movie and show images to match more cards from original site
         - Completed footer component
+
+Lab6:
+    Main Features:
+        - Added the user-info component to display data from backend to top of website
+        - Imported HttpClientModule to allow for recieving data from backend
+    Bonus Features:
+        - No Added Bonus

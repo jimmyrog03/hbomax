@@ -36,6 +36,8 @@ import { TallImgCarouselComponent } from './carousels/tall.img.carousel.componen
 import { ShowCaseCardRightComponent } from './cards/showcasecard-right.component';
 import { CriticsChoiceComponent } from './carousels/critics-choice.carousel.component';
 import { SearchTopBarComponent } from './header/searchtopbar.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -72,11 +74,13 @@ import { SearchTopBarComponent } from './header/searchtopbar.component';
     TallImgCarouselComponent,
     ShowCaseCardRightComponent,
     CriticsChoiceComponent,
-    SearchTopBarComponent
+    SearchTopBarComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
