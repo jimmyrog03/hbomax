@@ -56,3 +56,9 @@ Lab6:
         - Imported HttpClientModule to allow for recieving data from backend
     Bonus Features:
         - No Added Bonus
+
+Lab7:
+    Main Features:
+        - Moved mock media list to database 
+        - Created service component to be used by the foryou carousel on the main page
+    Bonus Features:

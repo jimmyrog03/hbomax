@@ -1,17 +1,27 @@
-import { Component } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { mock_media_list } from "../lists/mock.media.list";
 import { MediaListModel } from "../lists/media.list.model";
+import { MockListService } from "../lists/mock-list.service";
 
 @Component({
   selector: 'hbo-foryou',
   templateUrl: 'foryou.carousel.component.html',
   styleUrls: ['foryou.carousel.component.css']
 })
-export class ForYouComponent {
+export class ForYouComponent implements OnInit {
   foryou: MediaListModel[] = [];
-  constructor() {
-    for (var item of mock_media_list) {
-      this.foryou.push(item);
-    }
+  constructor(private mockListService:MockListService) {
+    
   }
+
+  ngOnInit(): void {
+    this.mockListService.getMockList().subscribe((data: MediaListModel[]) => {
+      console.log("Fetching mock list");
+      for (var item of mock_media_list) {
+        console.log(item);
+        this.foryou.push(item);
+      }
+    })
+  }
+
 }
