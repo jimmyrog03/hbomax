@@ -38,7 +38,6 @@
             "scripts": [
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.js"
             ]
-            
           },
           "configurations": {
             "production": {
@@ -46,7 +45,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "3mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -106,6 +105,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "hbomax:build:production",
+            "firebaseProject": "hbo-max-2797b",
+            "firebaseHostingSite": "hbo-max-2797b"
           }
         }
       }

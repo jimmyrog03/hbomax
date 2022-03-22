@@ -17,7 +17,7 @@ export class ForYouComponent implements OnInit {
   ngOnInit(): void {
     this.mockListService.getMockList().subscribe((data: MediaListModel[]) => {
       console.log("Fetching mock list");
-      for (var item of mock_media_list) {
+      for (var item of data) {
         console.log(item);
         this.foryou.push(item);
       }

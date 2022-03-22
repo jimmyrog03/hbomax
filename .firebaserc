@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "hbo-max-2797b"
+  },
+  "targets": {
+    "hbo-max-2797b": {
+      "hosting": {
+        "hbomax": [
+          "hbo-max-2797b"
+        ]
+      }
+    }
   }
 }

@@ -1,23 +1,17 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { MediaListModel } from "./media.list.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Injectable(
     {providedIn: 'root'}
 )
 export class MockListService{
-    private baseURL: string = "https://hbo-max-2797b-default-rtdb.firebaseio.com/";
-    private mockListEndPoint: string = "mock-list.json";
 
-    constructor(private http: HttpClient){
+    constructor(private db:AngularFireDatabase){
 
     }
 
-    getMockList(){
-        return this.http.get<MediaListModel []>(this.baseURL + this.mockListEndPoint);
-    }
-    
-    getMockListIndex(index:number){
-        return this.http.get<MediaListModel>(this.baseURL + 'mock-list' + '/' + index + '.json');
+    public getMockList(){
+        return this.db.list<MediaListModel>("mock-list").valueChanges();
     }
 }
