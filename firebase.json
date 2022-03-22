@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/hbomax",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
