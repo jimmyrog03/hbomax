@@ -70,3 +70,13 @@ Lab8:
         - Modified mock-list service to use Firebase to fetch data for the foryou carousel component
     Bonus Features:
         - No added bonus
+
+Lab9: 
+    Main Features:
+        - Created Admin routing page to enter new items to the search page
+        - Added form to enter information for the search-list card components
+            <> Tall picture url
+            <> Title
+            <> HBO subtitle
+        - Created service to send info from form to database in a new list called 'search-list'
+        - Displayed this list from the database on the search page

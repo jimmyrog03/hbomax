@@ -11,10 +11,12 @@ import { LastChancePageComponent } from './main-site/lastchancepage.component';
 import { ComingSoonPageComponent } from './main-site/comingsoonpage.component';
 import { TrendingNowPageComponent } from './main-site/trendingnowpage.component';
 import { AwardsPageComponent } from './main-site/awardspage.component';
+import { AddToSearchComponent } from './add-to-search/add-to-search.component';
 
 const routes:Routes = [
   {path: '', component: MainPageComponent},
   {path: 'home', component: MainPageComponent},
+  {path: 'admin', component: AddToSearchComponent},
   {path: 'series', component: SeriesPageComponent},
   {path: 'movies', component: MoviesPageComponent},
   {path: 'search', component: SearchPageComponent},

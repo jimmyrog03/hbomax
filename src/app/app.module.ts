@@ -43,6 +43,8 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database'
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddToSearchComponent } from './add-to-search/add-to-search.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -80,14 +82,16 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     ShowCaseCardRightComponent,
     CriticsChoiceComponent,
     SearchTopBarComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddToSearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

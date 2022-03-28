@@ -1,0 +1,27 @@
+<div class="d-flex flex-column mainpage-attr top-placeholder">
+    <form class="form-size" #postForm="ngForm" (ngSubmit)="addToSearch(postForm.value)">
+        <div class="input-group">
+            <span class="input-group-text">
+                Tall image URL:
+            </span>
+            <input type="text" class="form-control" ngModel required name="tall_img">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">
+                Title:
+            </span>
+            <input type="text" class="form-control" ngModel required name="title">
+        </div>
+        <div class="input-group">
+            <span class="input-group-text">
+                HBO Subtitle:
+            </span>
+            <input type="text" class="form-control" ngModel name="subtitle_HBO">
+        </div>
+        <button class="btn btn-light btn-custom" type="submit" [disabled]="!postForm.valid">
+            Add to Search Page
+        </button>
+    </form>
+
+
+</div>
