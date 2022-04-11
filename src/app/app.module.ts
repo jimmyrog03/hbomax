@@ -45,6 +45,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddToSearchComponent } from './add-to-search/add-to-search.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './main-site/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -83,7 +84,8 @@ import { FormsModule } from '@angular/forms';
     CriticsChoiceComponent,
     SearchTopBarComponent,
     UserInfoComponent,
-    AddToSearchComponent
+    AddToSearchComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

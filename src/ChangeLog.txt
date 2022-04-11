@@ -80,3 +80,10 @@ Lab9:
             <> HBO subtitle
         - Created service to send info from form to database in a new list called 'search-list'
         - Displayed this list from the database on the search page
+
+Lab10:
+    Main Feautes:
+        - Enabled Firebase authentication and created an authentication component
+        - Created service to validate authentication
+        - Connected authentication component to service
+        - Added alerts to be displayed if login or sign up was a success, or if there was an error

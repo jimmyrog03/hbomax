@@ -12,9 +12,10 @@ import { ComingSoonPageComponent } from './main-site/comingsoonpage.component';
 import { TrendingNowPageComponent } from './main-site/trendingnowpage.component';
 import { AwardsPageComponent } from './main-site/awardspage.component';
 import { AddToSearchComponent } from './add-to-search/add-to-search.component';
+import { AuthenticationComponent } from './main-site/authentication/authentication.component';
 
 const routes:Routes = [
-  {path: '', component: MainPageComponent},
+  {path: '', component: AuthenticationComponent},
   {path: 'home', component: MainPageComponent},
   {path: 'admin', component: AddToSearchComponent},
   {path: 'series', component: SeriesPageComponent},

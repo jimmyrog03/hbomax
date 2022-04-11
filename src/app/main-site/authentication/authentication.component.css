@@ -1,0 +1,20 @@
+.form-size{
+    width: 80%;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.btn-custom{
+    margin-top: 10px;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.alert{
+    margin-top: 10px;
+    height: fit-content;
+}
