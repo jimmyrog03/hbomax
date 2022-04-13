@@ -82,8 +82,18 @@ Lab9:
         - Displayed this list from the database on the search page
 
 Lab10:
-    Main Feautes:
+    Main Features:
         - Enabled Firebase authentication and created an authentication component
         - Created service to validate authentication
         - Connected authentication component to service
         - Added alerts to be displayed if login or sign up was a success, or if there was an error
+
+Bonus Assignemnt:
+    Main Features:
+        - Wrote 5 test cases for ShowCaseCard component
+            <> Tested Title
+            <> Tested Heading
+            <> Tested Subtext
+            <> Tested ImgUrl 
+            <> Tested Btn Asset Url
+        - Removed test case error in app.componet.spec.ts
